@@ -1,35 +1,54 @@
-<html>
- <body bgcolor="yellow">
-    <center>  
-          <h2>Student Bio-Date form</h2>    </center>   
-           <br>
-    
-<label for="studentName">Student Name:</label>
-<input type="text" name="t1"/>
-<br>
-<label for="password">Student Password:</label>
-<input type="password" name="t2"/>
-<br>
-Gender :<input type="radio" name="r1"> Male</body>
-        <input type="radio" name="r1"> Female</input>
-        <br>
-Student DOB:
-<input type="date"/>
-<br>
-Select course:
-<input type="checkbox">CSE</input>
-<input type="checkbox">EEE</input>
-<input type="checkbox">Civil</input>
-<br>
-Year of the course:
-<select>
-<option>I Year</option>
-<option>II Year</option>
-<option>III Year</option>
-<option>IV Year</option>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Bio-Data Form</title>
+</head>
+<body bgcolor="yellow">
+    <center>
+        <h2>Student Bio-Data Form</h2>
+    </center>
+    <form>
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="t1" />
+        <br><br>
 
-</select>
+        <label for="password">Student Password:</label>
+        <input type="password" id="password" name="t2" />
+        <br><br>
 
-</form>
- </body>
+        Gender:
+        <input type="radio" id="male" name="r1" value="Male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="r1" value="Female" />
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="dob">Student DOB:</label>
+        <input type="date" id="dob" name="dob" />
+        <br><br>
+
+        Select Course:
+        <input type="checkbox" id="cse" name="course" value="CSE" />
+        <label for="cse">CSE</label>
+        <input type="checkbox" id="eee" name="course" value="EEE" />
+        <label for="eee">EEE</label>
+        <input type="checkbox" id="civil" name="course" value="Civil" />
+        <label for="civil">Civil</label>
+        <br><br>
+
+        Year of the Course:
+        <select name="year">
+            <option value="I Year">I Year</option>
+            <option value="II Year">II Year</option>
+            <option value="III Year">III Year</option>
+            <option value="IV Year">IV Year</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+    </form>
+</body>
 </html>
