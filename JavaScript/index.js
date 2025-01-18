@@ -1,2 +1,8 @@
-console.log("wlcm to javsacript");
-console.log("This is console satatement");
+let a=20,b=10;
+if (a>b) {
+    console.log("A is greater")
+    
+} else {
+    console.log("B is grater")
+    
+}
