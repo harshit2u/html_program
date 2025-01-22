@@ -1,0 +1,19 @@
+ul{
+    
+    border: 10px solid red;
+    height: 140px;
+    width:max-content;
+    text-align: center;
+    width: 96%;
+    font-size: larger;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+    background-color: yellow;
+    margin: 40px;
+   
+}

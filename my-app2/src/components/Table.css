@@ -1,0 +1,14 @@
+table{
+    border: 4px solid greenyellow;
+}
+.one{
+    background-color: palevioletred;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+   
+}
+.two{
+    border-color: blueviolet;
+    border-width: 2px;
+}
